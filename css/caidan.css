@@ -1,0 +1,134 @@
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+    z-index: 1;
+}
+.daohang{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #d7d7d7;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    width: 0.9rem;
+    height: 0.96rem;
+}
+.small a{
+    width: 0.9rem;
+    height: 0.96rem;
+    display: block;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small span{
+    font-size: 0.12rem;
+    color: #626262;
+}
+.small i{
+    font-size: 0.44rem;
+    color: #989898;
+}
+.small1 i{
+    color: #ff5626;
+}
+.small1 span{
+    color: #ff5626;
+}
+.fenlei{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.fenlei a{
+    color: #626262;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+}
+.fenlei .tj{
+    color: #ff5751;
+}
+.food{
+    width: 7.5rem;
+    height: 2.3rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.food .foodh{
+    width: 7rem;
+    height: 2.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+    display: flex;
+    position: relative;
+    margin-top: 0.3rem;
+}
+.foodh .food1{
+    width: 3.1rem;
+    height: 1.95rem; 
+    margin: 0.15rem 0.1rem;
+}
+.foodh .food1 img{
+    width: 3.1rem;
+    height: 1.95rem;
+    border-radius: 0.2rem;
+}
+.foodh .food2{
+    width: 3.2rem;
+    height: 1.95rem;
+    margin: 0.15rem 0.05rem;
+    background-color: #fff; 
+}
+.foodh .food2 .z1{
+    font-size: 0.3rem;
+    font-weight: bold;
+    padding-top: 0.2rem;
+}
+.foodh .food2 .z2{
+    font-size: 0.2rem;
+    color:#989898;
+}
+.foodh .food2 .z3{
+    font-size: 0.36rem;
+    color:#ff3931;
+    font-weight: bold;
+    padding-top: 0.1rem;
+}
+.foodh .food2 .z4{
+    font-size: 0.2rem;
+    color:#989898;
+    padding-top: 0.05rem;
+}
+.food .foodh .yuan{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #fff;
+    bottom: 0.2rem;
+    right: 0.4rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.food .foodh i{
+    font-size: 0.4rem;
+    color: #ff3931;
+}

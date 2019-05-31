@@ -1,0 +1,78 @@
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+    z-index: 1;
+    padding: 0.0.24rem;
+    box-sizing: border-box;
+}
+.dd i{
+    position: absolute;
+    left: 0;
+}
+.nr{
+    width: 7.5rem;
+    height: 5.74rem;
+    background: #fff;
+    margin-top: 0.8rem;
+    position: relative;
+}
+.nr .nr1{
+    width: 1.98rem;
+    height: 1.98rem;
+    background:#333;
+    border-radius: 50%;
+    position: absolute;
+    left: 2.9rem;
+    top: 0.8rem;
+}
+.nr .nr1 img{
+    width: 1.98rem;
+    height: 1.98rem;
+    border-radius: 50%;
+}
+.nr  p{
+    font-size: 0.38rem;
+    font-weight: bold;
+    position: absolute;
+    left: 3.15rem;
+    bottom: 2.1rem;
+}
+.nr .qian{
+    font-size: 0.4rem;
+    font-weight: bold;
+    position: absolute;
+    color: #FF5751;
+    bottom: 1.5rem;
+}
+.nr .po{
+    width: 5.04rem;
+    height: 1.02rem;
+    background: #fff;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 1.35rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.nr .po .po1{
+    width: 2.2rem;
+    height: 0.58rem;
+    background: #E5E5E5;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.58rem;
+    font-weight: bold;
+}
+.nr .po .po2{
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+}

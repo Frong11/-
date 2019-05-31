@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.zhengti{
+    width: 7.5rem;
+    height: 0.88rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:linear-gradient(to right,#ff3532,#ff7719);
+    z-index:1;
+}
+.zhengti .ding1{
+    font-size: 0.36rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.88rem;
+    font-weight: bold;
+}
+.bigbox{
+    height: 23rem;
+    width: 7.5rem;
+    background: #fefefe;
+}
+.dizhi{
+    height: 0.93rem;
+    width: 7.5rem;
+    background: #fefefe;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.dizhi span{
+    line-height: 0.93rem;
+}
+
+.dizhi i{
+    color: #ff5626;
+    font-size: 0.33rem;
+}
+/* 搜索 */
+.sousuo{
+    width: 100%;
+    height: 0.81rem;
+    background: #fef6f3;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.1rem;
+}
+.sousuokuang{
+    width: 7.05rem;
+    height: 0.72rem;
+    border-radius: 0.30rem;
+    background: #ffffff;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 0.72rem;
+    /* justify-content: center; */
+}
+.sousuokuang i{
+    font-size: 0.49rem;
+    line-height: 0.72rem;
+}
+.sousuokuang .icon-sous{
+    color: #999999;
+    font-size: 0.44rem;
+}
+.sousuokuang .icon-cuo{
+    color: #999999;
+    font-size: 0.26rem;
+}
+.sousuokuang input{
+    width: 5rem;
+    height: 0.70rem;
+    background: #ffffff;
+    border-radius: 22px;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    color: #b2b2b2;
+    font-size: 0.29rem;
+}
+.ly{
+    line-height: 0.72rem;
+    color: #999999;
+}
+.sousuokuang span{
+    line-height: 0.72rem;
+    font-size: 0.22rem;
+    color: #999999;
+}
+
+
+.lunbotu{
+    width: 7rem;
+    height: 4rem;
+    background: #ff3532;
+    margin: 0.3rem auto 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+}
+.lunbotu img{
+    width: 7rem;
+    height: 4rem;
+}
+.hongbao{
+    width: 7rem;
+    height: 1.6rem;
+    background: red;
+    margin: 0.3rem auto 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+}
+.hongbao img{
+    width: 7rem;
+    height: 1.6rem;
+
+}
+/* 积分 */
+.jifen{
+    width: 7rem;
+    height: 3rem;
+    margin: 0.3rem auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.jifen .jifen1{
+    width: 3.4rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+}
+.jifen .jifen1 img{
+    width: 3.4rem;
+    height: 3rem;
+
+}
+.jifen .jifen1 .jifen2{
+    width: 3.4rem;
+    height: 1.4rem;
+    background: yellow;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+}
+.jifen .jifen1 .jifen2 img{
+    width: 3.4rem;
+    height: 1.4rem;
+
+}
+/* huishike */
+.huishike{
+    width: 7.5rem;
+    height: 0.64rem;
+    padding: 0 0.24rem;
+    margin: 0.2rem auto;
+    box-sizing: border-box;
+}
+.huishike i{
+    font-size: 0.64rem;
+    color: #dc341e;
+} 
+.huishike strong{
+    line-height: 0.64rem;
+}
+.caipin{
+    height: 2.32rem;
+    width: 7rem;
+    margin: 0.2rem auto ;
+    box-shadow: 0px 6px 24px 0px rgba(255, 87, 38, 0.14);
+    padding: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between；
+}
+.caipin .tiao{
+    width: 0.42rem;
+    height: 1.18rem;
+    background: #dc341e;
+    position: absolute;
+    right: 0.45rem;
+    top: 0;
+}
+.caipin .tiaotop{
+    width: 0.42rem;
+    height: 0.97rem;
+}
+.caipin .tiaotop p{
+    color: #fefefe;
+    text-align: center;
+}
+.caipin .tiaobottom{
+    border-top: #dc341e solid 0.21rem;
+    border-right: #dc341e solid 0.21rem;
+    border-bottom: #fefefe solid 0.21rem;
+    border-left: #dc341e solid 0.21rem;
+}
+.caipin .tiao2{
+    border-top: #dc341e solid 0.425rem;
+    border-right: #dc341e solid 0.425rem;
+    border-bottom: #fefefe solid 0.425rem;
+    border-left: #fefefe solid 0.425rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.caipin .caipinleft{
+    height: 1.93rem;
+    width: 3.1rem;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+}
+.caipin .caipinleft img{
+    height: 1.93rem;
+    width: 3.1rem;
+    border-radius: 0.2rem;
+}
+.caipin .caipinright{
+    height: 1.93rem;
+    widows: 3.1rem;;
+    margin-left: 0.2rem;
+    line-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.caipin .caipinright strong{
+    font-size: 0.3rem;
+}
+.caipin .caipinright .zi1{
+    font-size: 0.12rem;
+    color: #999999;
+}
+.caipin .caipinright .zi2{
+    font-size: 0.22rem;
+    color: #ffc3c1;
+}
+.caipin .caipinright .zi3{
+    display: block;
+    height: 0.5rem;
+    width: auto;
+    line-height: 0.5rem;
+    font-size: 0.23rem;
+    color: #ff4c45;
+    display: flex;
+    flex-direction: row;
+}
+.caipin .caipinright .zi3 p{
+    font-size: 0.4rem;
+    color: #ff4c45;
+}
+.caipin .caipinright .zi4{
+    font-size: 0.18rem;
+    color:#999999;
+}
+.caipin .dazhe{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    font-size: 0.23rem;
+    color: #fefefe;
+}
+.dixian{
+    width: 7rem;
+    height: 1rem;
+    margin: 0 auto;
+    line-height: 1rem;
+    text-align: center;
+}
+.dixian span{
+    font-size: 0.24rem;
+    color: #FEA7A3;
+}
+.bottom{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #fefefe;
+    position: fixed;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
+}
+.small i{
+    color: #989898;
+    font-size:0.44rem;
+}
+.small .ziti{
+    color: #ff5626;
+}
+.small{
+    width: 0.9rem;
+    height: 0.98rem;
+    font-size: 0.17rem;
+}
+.small .icon-home{
+    font-size: 0.44rem;
+    color: #ff5626;
+}
+.small .shouye{
+    color: #ff5626;
+}
+.small .ziti{
+    color: #989898;
+}
+.small a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.03rem;
+    color: #989898;
+}
