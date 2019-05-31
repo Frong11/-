@@ -22,6 +22,9 @@
     display: flex;
     justify-content: space-between;
 }
+a{
+    color: #000;
+}
 .small{
     width: 0.9rem;
     height: 0.96rem;

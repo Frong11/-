@@ -113,6 +113,9 @@
     right: 0;
     top:0.4rem;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .ms{
     width: 7.5rem;
     height: 4.19rem;
