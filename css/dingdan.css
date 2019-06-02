@@ -120,7 +120,7 @@
    
     padding: 0.26rem;
     box-sizing: border-box;
-    margin:0.6rem auto ;
+    margin:0.3rem auto ;
 }
  .peisonfei{
      display: flex;
@@ -151,7 +151,7 @@
     width: 5.06rem;
     height: 1.31rem;
     background-color: #F2F2F2;
-    margin: 0 0.3rem 0 0 ;}
+    margin: 0 0.3rem 0 0rem ;}
 
 .boo span{
     color: #000000;
