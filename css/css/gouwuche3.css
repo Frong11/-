@@ -1,0 +1,167 @@
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+}
+.tu{
+    width: 7.5rem;
+    height: 5.19rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.tu .tu1{
+    width: 7rem;
+    height: 5.19rem;
+    background-color: aquamarine;
+}
+.tu .tu1 img{
+    width: 7rem;
+    height: 5.19rem;
+}
+.ms{
+    width: 7.5rem;
+    height: 5.45rem;
+    background-color:#fff;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.ms i{
+    font-size: 0.62rem;
+    color: #ff5626;
+    line-height: 0.88rem;
+}
+.ms p{
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.88rem;
+}
+.ms .ding{
+    width: 7rem;
+    height: 0.88rem;
+    display: flex;
+}
+.ms .xia{
+    width: 7rem;
+    height: 4.57rem;
+    display: flex;
+    margin-top: 0.2rem;
+    overflow:auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.ms .kuai{
+    width: 2.61rem;
+    height: 4.2rem;
+    background-color: #fff;
+    margin-left: 0.2rem;
+    border-radius: 0.2rem;
+    position: relative;
+    display: flex;
+}
+.ms .kuai1{
+    margin-left: 0rem;
+}
+.ms .kuai .kkk{
+    width: 2.61rem;
+    height: 3.08rem;
+    background-color: #ff5626;
+    border-radius: 0.2rem;
+}
+.ms .kuai .kkk img{
+    width: 2.61rem;
+    height: 3.08rem;
+    border-radius: 0.2rem;
+}
+.ms .xia .kuai p{
+    font-size: 0.3rem;
+    color: #333333;
+    margin-top: 0.2rem;
+    line-height: 0rem;
+    position: absolute;
+    bottom: 0.8rem;
+}
+.ms .xia .kuai .jq{
+    font-size: 0.36rem;
+    color: #ff5626;
+    position: absolute;
+    bottom: 0.3rem;
+}
+.ms .xia .kuai .qiu{
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.ms .xia .kuai .qiu i{
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+}
+.ms .xia .kuai2{
+    width: 1.63rem;
+    height: 4.2rem;
+}
+.ms .xia .kuai2 .kkk1 img{
+    width: 1.63rem;
+    height: 3.08rem;
+}
+.ms .xia .kuai2 .kkk1 p{
+    left: 0;
+    position: absolute;
+}
+.daohang{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #d7d7d7;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    width: 0.9rem;
+    height: 0.96rem;
+    position: relative;
+}
+.small a{
+    width: 0.9rem;
+    height: 0.96rem;
+    display: block;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small span{
+    font-size: 0.12rem;
+    color: #626262;
+}
+.small i{
+    font-size: 0.44rem;
+    color: #989898;
+}
+.small1 i{
+    color: #ff5626;
+}
+.small1 span{
+    color: #ff5626;
+}

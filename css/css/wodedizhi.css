@@ -1,0 +1,115 @@
+.dd{
+    width: 7.5rem;
+    height:1.27rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 1.27rem;
+    font-size: 0.38rem;
+    font-weight: bold; 
+}
+.dd i{
+    float: left;
+    font-size: 0.3rem;
+    color: #fff;
+}
+  .top{
+      width: 7.5rem;
+      height: 0.95rem;
+      padding: 0 0.24rem;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items : center ;
+
+  }
+  .boo{
+      display: flex;
+      align-items : center ;
+
+  }
+  .boo p{
+      margin-left: 0.2rem;
+  }
+
+  .small{
+      margin-right: 0.2rem;
+  }
+  .top p{
+    font-size:0.36rem;
+    color: #ff4f40;
+  }
+
+  .top .iconfont{
+      width: 0.32rem;
+      height: 0.34rem;
+      color: #fc6565;
+      margin-left: 0.3rem;
+
+  }
+
+  .zhifu{
+    width: 7.5rem;
+    height: 5.98rem;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+}
+.zhifu .zffs{
+    width: 7.5rem;
+    height: 0.97rem;
+}
+.zhifu .zffs p{
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 0.92rem;
+}
+ .icon-dayu{
+    width: 0.19rem;
+    height:0.33rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.4rem;
+    color: #fff;
+
+}
+input{
+    width: 0.4rem;
+    height: 0.4rem;
+  
+  
+} 
+.box{
+    width: 3.59rem;
+    height:0.85rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    border-radius: 0.4rem;
+    margin:1.1rem auto 0;
+    font-size: 0.38rem;
+    line-height: 0.85rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+
+}
+.shangxi{
+    width: 7.04rem;
+    height: 2.25rem;
+    padding:0 0.38rem;
+    box-sizing: border-box;
+    margin: 0 auto 0.2rem;
+    box-shadow:0 0 0.4rem 0.01rem #FFECE9;
+}
+.shangxi p{
+    font-size:0.38rem;
+    color: #000000;
+    line-height: 0.5rem;
+}
+.shangxi pre{
+    line-height:0.2rem;
+    color: #000000;
+    opacity: 0.4;
+    font-size: 0.26rem;
+}

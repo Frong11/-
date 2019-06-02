@@ -1,0 +1,174 @@
+.dd{
+    width: 7.5rem;
+    height: 2.31rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+    position: relative; 
+}
+.boox{
+    width: 7.01rem;
+    height: 2.02rem;
+}
+.box{
+    width: 7.01rem;
+    height: 2.47rem;
+    margin: auto;
+    padding: 0 0.26rem;
+    box-sizing: border-box;
+    box-shadow:0 0 0.19rem 0.01rem #FFEFE9;
+    border-radius: 0.1rem;
+    top:2.11rem;
+   position: absolute;
+   top: 1.5rem;
+   left: 0.24rem;
+   background-color: #fff;
+  }
+.box p{
+    margin-right: 0.2rem;
+}
+
+.kaiton{
+    margin-bottom: 0.3rem;
+    width: 6.75rem;
+    height: 1.01rem;
+    font-size: 0.30rem;
+    line-height: 0.32rem;
+    display: flex;
+   align-items: center;
+   justify-content:space-between;
+   border-bottom:#E8E8E8 solid 2px; 
+   opacity: 0.8;
+   color:#000000;
+
+}
+.box .two{
+    opacity: 0.4;
+    font-size: 0.24px;
+}
+
+.box .two .q{
+    float: right;
+    margin-right: 0.12rem;
+    color: #FF3900;
+    margin-top: 0.15rem; 
+}
+.bottom{
+    width: 7.01rem;
+    height: auto;
+    border-radius: 0.4;
+    margin: 0.18rem auto 0.3rem;
+    box-shadow:0 0 0.19rem 0.01rem #FFEFE9;
+    padding: 0 0.26rem;
+    box-sizing: border-box;
+}
+.bottom .lianban{
+    width: 6.75rem;
+    height:2.26rem;
+    border-bottom:#E8E8E8 solid 2px; 
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 0.36rem;
+    box-sizing: border-box;
+
+}
+.bottom .lianban img{
+    width: 1.61rem;
+    height: 1.61rem;
+    border-radius: 50%;
+}
+
+.bottom .lianban p{
+    height: 0.13rem;
+    margin-right: 0.38rem;
+}
+.bottom .lianban .yige{
+    width: 2.61rem;
+    height: 1.61rem;
+  
+    margin-right:0.8rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.3rem;
+
+}
+ .qian{
+    width: auto;
+    height: 0.5rem;
+    color: #FF3900;
+
+}
+
+ .qian span{
+    font-size: 0.26rem;
+}
+.qian .span{
+  
+    font-size: 0.43rem;
+
+}
+.boo{
+    width: 7.01rem;
+    height: 2.47rem;
+    box-shadow: 0 0 0.19rem 0.01rem #FFEFE9;
+   
+    padding: 0.26rem;
+    box-sizing: border-box;
+    margin:0.3rem auto ;
+}
+ .peisonfei{
+     display: flex;
+     justify-content: space-between;
+     margin: 0.28rem 0;
+     color: #000000;
+     opacity: 0.8;
+ }
+ .xiamian .youhui{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    opacity: 0.8;
+ }
+.div{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.56rem;
+}
+.div p{
+    font-size: 0.3rem;
+    color: #ff5751;
+}
+
+.small{
+    float: right;
+    width: 5.06rem;
+    height: 1.31rem;
+    background-color: #F2F2F2;
+    margin: 0 0.3rem 0 0rem ;}
+
+.boo span{
+    color: #000000;
+    opacity: 0.8;
+}
+.da{
+    position: absolute;
+    bottom: 0;
+}
+.da{
+    width: 7.5rem;
+    height: 0.98rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,271 @@
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(right,#ff9700,red);
+    background: -webkit-linear-gradient(right,#ff9700,red);
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+    z-index: 1;
+}
+.qb{
+    width: 7.5rem;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.qb .qby{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem #d7d7d7;
+}
+.qb .qby .qby1{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color:#989898;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.qb p{
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #989898;
+}
+.qb i{
+    position: absolute;
+    right: 1rem;
+    top: 0.35rem;
+    color: #989898;
+}
+.qb pre{
+    position: absolute;
+    top: 0.05rem;
+    right: 0.3rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #989898;
+}
+.daohang{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #d7d7d7;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.daohang .small .jia1{
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    top: 0;
+    right: 0.1rem;
+    color: #fff;
+    font-size: 0.12rem;
+}
+.small{
+    width: 0.9rem;
+    height: 0.96rem;
+    position: relative;
+}
+.small a{
+    width: 0.9rem;
+    height: 0.96rem;
+    display: block;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small span{
+    font-size: 0.12rem;
+    color: #626262;
+}
+.small i{
+    font-size: 0.44rem;
+    color: #989898;
+}
+.small1 i{
+    color: #ff5626;
+}
+.small1 span{
+    color: #ff5626;
+}
+.food{
+    width: 7.5rem;
+    height: 2.3rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.food .foodh{
+    width: 7rem;
+    height: 2.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+    display: flex;
+    position: relative;
+    margin-top: 0.3rem;
+}
+.food .foodh .cy{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #fff;
+    position: absolute;
+    top: 1rem;
+    left: 0.2rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.food .foodh .cy .cy1{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color:#ff3931;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.food .foodh .cy .cy2{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color:#989898;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.foodh .food1{
+    width: 1.61rem;
+    height: 1.61rem; 
+    margin: 0.3rem 0.1rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.foodh .food1 img{
+    width: 1.61rem;
+    height: 1.61rem;
+    border-radius: 0.2rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.foodh .food2{
+    width: 3.2rem;
+    height: 1.95rem;
+    margin: 0.15rem 0.05rem;
+    background-color: #fff; 
+    margin-left: 0.7rem;
+}
+.foodh .food2 .z1{
+    font-size: 0.3rem;
+    font-weight: bold;
+    padding-top: 0.2rem;
+}
+.foodh .food2 .z2{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color:#989898;
+}
+.foodh .food2 .z3{
+    font-size: 0.3rem;
+    color:#ff3931;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+.foodh .food2 p{
+    float: left;
+}
+.food .foodh .yuan{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #fff;
+    bottom: 0.2rem;
+    right: 0.4rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.food .foodh i{
+    font-size: 0.4rem;
+    color: #ff3931;
+}
+.food .foodh .zyuan{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0.2rem;
+    right: 1rem;
+    text-align: center;
+    color: #ff3931;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.food .foodh .yyuan{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0.2rem;
+    right: 0.2rem;
+    text-align: center;
+    color: #ff3931;
+    box-shadow: 0 0 0.1rem 0.1rem #fef6f4;
+}
+.food .foodh span{
+    position: absolute;
+    bottom: 0.15rem;
+    right: 0.67rem;
+    color: #ff3931;
+    font-weight: bold;
+}
+.food .foodh .sc img{
+    width: 1.5rem;
+    height: 2.31rem;
+}
+.fk{
+    height: 0.98rem;
+    width:7.5rem ;
+    background-color:#fff;
+    position: absolute;
+    bottom: 0.98rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.fk p{
+    font-size: 0.38rem;
+    font-weight: bold;
+    color:#ff3931;
+    position: absolute;
+    top:0.2rem;
+}
+.fk .yjj{
+    width: 2.9rem;
+    height: 0.85rem;
+    background-image: linear-gradient(90deg,	#ff3333 0%, 	#ff7918 100%);
+    position: absolute;
+    right: 0.2rem;
+    top: 0.05rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 0.38rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 0.85rem;
+}
